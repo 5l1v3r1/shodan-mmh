@@ -1,0 +1,9 @@
+[TOKEN]
+shodan_key = xxxxxxxxxxxxxxx
+
+[PORT]
+list = [
+    "3306/mysql",
+    "6379/redis",
+    "27017/mongodb",
+    "5432/postgres"]
