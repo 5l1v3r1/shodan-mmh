@@ -32,21 +32,23 @@ shodan_key = qxxxxxxxxxxxxxx # change me with your shodan key
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ pip install -r requirement.txt 
+$ pip install -r mod.txt 
 ```
 
 How to run 
 
-```py
+```sh
 $ python3 shodan.py -h
 ```
 
 Search by favicon-url
 
-```py
+```sh
 $ python3 shodan.py --fav=https://localhost.com/favicon.ico
 ```
 Search By Mumur Hash
-```py
+```sh
 $ python3 shodan.py --mmh=3133331313313
 ```
+
+&copy; [Rahmat Wahyu Hadi](https://github.com/wahyuhadi/) - 2019
